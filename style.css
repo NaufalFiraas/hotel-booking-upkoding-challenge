@@ -39,6 +39,7 @@ body {
   width: 400px;
   height: max-content;
   margin: 70px auto;
+  position: relative;
 }
 
 /* Form */
@@ -164,7 +165,7 @@ form h2 {
   width: 350px;
   border-radius: 10px;
   position: absolute;
-  bottom: 60px;
+  bottom: -65px;
   z-index: -2 !important;
   padding: 25px 0;
 }
