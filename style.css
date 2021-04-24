@@ -99,12 +99,8 @@ form h2 {
 /* Datepicker */
 .datepicker {
   display: flex;
+  position: relative;
   justify-content: space-between;
-}
-
-.check-in,
-.check-out {
-  flex: 1;
 }
 
 .check-in input {
@@ -117,9 +113,19 @@ form h2 {
   border-bottom-left-radius: 0;
 }
 
+.line-check-in-out {
+  width: 2px;
+  height: 45px;
+  background-color: #f4f4f5;
+  position: absolute;
+  left: 50%;
+  bottom: 9px;
+}
+
 /* room-adult-kids */
 .room-adult-kids {
   display: flex;
+  position: relative;
 }
 
 .room input {
@@ -136,6 +142,25 @@ form h2 {
   border-bottom-left-radius: 0;
 }
 
+.line-room-adult,
+.line-adult-kids {
+  width: 2px;
+  height: 45px;
+  position: absolute;
+  bottom: 9px;
+}
+
+.line-room-adult {
+  background-color: #f4f4f5;
+  left: 33%;
+}
+
+.line-adult-kids {
+  right: 33%;
+  background-color: #f4f4f5;
+}
+
+/* Footer */
 .footer {
   display: flex;
   background-color: #ff455b;
