@@ -41,7 +41,7 @@
 .container-form {
   width: 400px;
   height: max-content;
-  margin: auto;
+  margin: 70px auto;
 }
 
 /* Form */
@@ -91,13 +91,19 @@ input:focus {
 
 form h2 {
   font-size: 1.7rem;
-  margin-bottom: 30px;
+  margin-bottom: 25px;
   color: #222a37;
 }
 
 /* Datepicker */
 .datepicker {
   display: flex;
+  justify-content: space-between;
+}
+
+.check-in,
+.check-out {
+  flex: 1;
 }
 
 .check-in input {
@@ -127,4 +133,20 @@ form h2 {
 .kids input {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
+}
+
+.footer {
+  display: flex;
+  background-color: #ff455b;
+  width: 350px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 65px;
+  z-index: -2 !important;
+  padding: 30px 0;
+}
+
+.footer p {
+  margin: auto;
+  color: #fff;
 }
