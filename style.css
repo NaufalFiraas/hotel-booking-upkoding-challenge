@@ -129,6 +129,12 @@ form h2 {
   position: relative;
 }
 
+.room,
+.adult,
+.kids {
+  flex: 1;
+}
+
 .room input {
   border-top-right-radius: 0;
   border-bottom-right-radius: 0;
